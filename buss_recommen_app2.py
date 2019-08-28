@@ -35,6 +35,6 @@ def create_app():
     @app.route('/dashboard', methods=['GET'])
     def dashboard():
         
-        return render_template("results.html",)
+        return render_template("dashboard.html",)
 
     return app
